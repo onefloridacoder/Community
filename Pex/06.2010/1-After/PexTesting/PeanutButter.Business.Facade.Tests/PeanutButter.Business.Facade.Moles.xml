@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeanutButter.Business.Facade.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager">
+            <summary>Mole type of <see cref="T:PeanutButter.Business.Facade.Creamy.CreamyLayerManager"/>
+            .</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.#ctor(PeanutButter.Business.Facade.Creamy.CreamyLayerManager)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.Bind(PeanutButter.Business.Facade.IBusinessLayerManager)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AddBreadBread">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AddFlavoringFlavoring">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AddToppingTopping">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.Constructor">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.SandwichGet">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.SandwichSetSandwich">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.SliceInt32">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.AddBreadBread">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.AddFlavoringFlavoring">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.AddToppingTopping">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.SandwichGet">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.SandwichSetSandwich">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.MCreamyLayerManager.AllInstances.SliceInt32">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Creamy.CreamyLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager">
+            <summary>Mole type of <see cref="T:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager"/>
+            .</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.#ctor(PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.Bind(PeanutButter.Business.Facade.IBusinessLayerManager)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AddBreadBread">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AddFlavoringFlavoring">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AddToppingTopping">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.ConfigureSandwichSandwich">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.ConfigureSandwich(T:PeanutButter.Business.Entities.Sandwich)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.Constructor">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.ConstructorSandwich">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.#ctor(T:PeanutButter.Business.Entities.Sandwich)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.SandwichGet">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.SandwichSetSandwich">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.SliceInt32">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.AddBreadBread">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.AddFlavoringFlavoring">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.AddToppingTopping">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.ConfigureSandwichSandwich">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.ConfigureSandwich(T:PeanutButter.Business.Entities.Sandwich)"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.SandwichGet">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.SandwichSetSandwich">
+            <summary>Sets the mole of <see cref="P:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Sandwich"/>
+            </summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.MCrunchyLayerManager.AllInstances.SliceInt32">
+            <summary>Sets the mole of <see cref="M:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Creamy.Moles.SCreamyLayerManager">
+            <summary>Stub type of <see cref="T:PeanutButter.Business.Facade.Creamy.CreamyLayerManager"/>
+            .</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.SCreamyLayerManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Creamy.Moles.SCreamyLayerManager.InitializeStub">
+            <summary>Initializes a new instance of type SCreamyLayerManager</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.SCreamyLayerManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Creamy.Moles.SCreamyLayerManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager">
+            <summary>Stub type of <see cref="T:PeanutButter.Business.Facade.Crunchy.CrunchyLayerManager"/>
+            .</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager.#ctor(PeanutButter.Business.Entities.Sandwich)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager.InitializeStub">
+            <summary>Initializes a new instance of type SCrunchyLayerManager</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PeanutButter.Business.Facade.Crunchy.Moles.SCrunchyLayerManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager">
+            <summary>Stub type of <see cref="T:PeanutButter.Business.Facade.IBusinessLayerManager"/>
+            .</summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.#ctor">
+            <summary>Initializes a new instance of type SIBusinessLayerManager</summary>
+        </member>
+        <member name="F:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.AddBreadBread">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="F:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.AddFlavoringFlavoring">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="F:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.AddToppingTopping">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.pbbf::PeanutButter#Business#Facade#IBusinessLayerManager#AddBread(PeanutButter.Business.Entities.Enums.Bread)">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddBread(T:PeanutButter.Business.Entities.Enums.Bread)"/>
+            </summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.pbbf::PeanutButter#Business#Facade#IBusinessLayerManager#AddFlavoring(PeanutButter.Business.Entities.Flavoring)">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddFlavoring(T:PeanutButter.Business.Entities.Flavoring)"/>
+            </summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.pbbf::PeanutButter#Business#Facade#IBusinessLayerManager#AddTopping(PeanutButter.Business.Entities.Enums.Topping)">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.AddTopping(T:PeanutButter.Business.Entities.Enums.Topping)"/>
+            </summary>
+        </member>
+        <member name="M:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.pbbf::PeanutButter#Business#Facade#IBusinessLayerManager#Slice(System.Int32)">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+        <member name="F:PeanutButter.Business.Facade.Moles.SIBusinessLayerManager.SliceInt32">
+            <summary>Sets the stub of <see cref="M:PeanutButter.Business.Facade.IBusinessLayerManager.Slice(T:System.Int32)"/>
+            </summary>
+        </member>
+    </members>
+</doc>
