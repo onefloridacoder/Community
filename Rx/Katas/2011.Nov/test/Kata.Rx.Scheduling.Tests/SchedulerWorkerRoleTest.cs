@@ -1,11 +1,11 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Kata.Rx.Scheduling.Tests
+﻿namespace Kata.Rx.Scheduling.Tests
 {
+    using System;
+    using System.Text;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     /// <summary>
     /// Summary description for UnitTest1
     /// </summary>
@@ -18,7 +18,8 @@ namespace Kata.Rx.Scheduling.Tests
         public void CanPutItemsOnTheQueue()
         {
             // Create/Find a queue
-
+            var purchasedProductQueue = new Queue<Product>();
+            
             // Create a reference to the queue
 
             // Create state objects and add them to the queue
@@ -30,24 +31,28 @@ namespace Kata.Rx.Scheduling.Tests
         public void CanPeekAtItemsOnTheQueue()
         {
             // Create/Find a queue
+            var purchasedProductQueue = new Queue<Product>();
 
             // Create a reference to the queue
 
             // Create state objects and add them to the queue
 
-            // Assert.IsTrue(QueueReference.PeekAt(firstItemOnQueue) != null);
+            // Assert.IsTrue(QueueReference.PeekAt(thirdItemOnQueue) != null);
         }
 
         [TestMethod]
         public void CanPopItemsOffTheQueue()
         {
             // Create/Find a queue
+            var purchasedProductQueue = new Queue<Product>();
 
             // Create a reference to the queue
 
-            // Create state objects and add them to the queue
+            // Create expected state object and add it to the queue
 
-            // Assert.IsTrue(QueueReference.ItemsAreOnQueue)
+            // var expectProduct = QueueReference.PukeAt(fourthItemOnQueue);
+            
+            // Assert.AreEqual(actualProduct, expectedProduct);
         }
     }
 }
