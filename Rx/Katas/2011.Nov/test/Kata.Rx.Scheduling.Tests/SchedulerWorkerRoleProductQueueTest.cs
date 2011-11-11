@@ -1,21 +1,18 @@
 ﻿namespace Kata.Rx.Scheduling.Tests
 {
-    using System;
-    using System.Text;
     using System.Collections.Generic;
-    using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     /// <summary>
     /// Summary description for UnitTest1
     /// </summary>
     [TestClass]
-    public class SchedulerWorkerRoleTest
+    public class SchedulerWorkerRoleProductQueueTest
     {
-        public SchedulerWorkerRoleTest() { /* TODO: Add constructor logic here  - NOT!!! */ }
+        public SchedulerWorkerRoleProductQueueTest() { /* TODO: Add constructor logic here  - NOT!!! */ }
 
         [TestMethod]
-        public void CanPutItemsOnTheQueue()
+        public void CanPutProductsOnTheQueue()
         {
             // Create/Find a queue
             var purchasedProductQueue = new Queue<Product>();
@@ -28,7 +25,7 @@
         }
 
         [TestMethod]
-        public void CanPeekAtItemsOnTheQueue()
+        public void CanPeekAtProductsOnTheQueue()
         {
             // Create/Find a queue
             var purchasedProductQueue = new Queue<Product>();
@@ -41,7 +38,7 @@
         }
 
         [TestMethod]
-        public void CanPopItemsOffTheQueue()
+        public void CanPopProductsOffTheQueue()
         {
             // Create/Find a queue
             var purchasedProductQueue = new Queue<Product>();
