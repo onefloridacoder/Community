@@ -1,4 +1,6 @@
-﻿namespace SCS.Infrastructure
+﻿using System;
+
+namespace SCS.Model
 {
     using System.Collections.Generic;
 
@@ -6,6 +8,8 @@
     {
         private ICollection<Tool> Tools;
         private ICollection<Boot> Boots;
+
+
 
         public Gardener(ICollection<Boot> boots)
         {
@@ -30,10 +34,15 @@
 
         public Equipment Equipment { get; private set; }
 
+        public void SetWorkDay(TimeSpan workday)
+        {
+            this.WorkDay = new DateTime(workday.Ticks);
+        }
+
         /// <summary>
         /// This method takes at least five minutes to complete.
         /// </summary>
-        public virtual void SetEquipment()
+        public void SetEquipment(ICollection<Tool> tools )
         {
             // First
             // this.Equipment = new Equipment();
@@ -47,5 +56,9 @@
             //    }
             // }           
         }
+
+
+
+        public DateTime WorkDay { get; private set; }
     }
 }

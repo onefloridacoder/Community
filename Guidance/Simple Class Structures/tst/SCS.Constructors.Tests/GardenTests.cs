@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using SCS.Model;
 
 namespace SCS.Constructors.Tests
 {
@@ -16,7 +17,10 @@ namespace SCS.Constructors.Tests
         [TestMethod]
         public void Should_Apply_Configured_Gardener_To_Itself()
         {
-
+            var gardener = new Gardener(new Collection<Boot>());          
+            var redGarden = new Gardens.RedGarden(gardener); // Garden test double
+            
+            
         }
     }
 
@@ -27,13 +31,7 @@ namespace SCS.Constructors.Tests
         public void Should_Apply_Configured_Gardener_To_Itself()
         {
             var gardener = new Gardener(new Collection<Boot>(), new Collection<Tool>());
-            var garden = new Gardens.RedGarden(gardener); // Garden test double
-            garden.Gardener.SquareFootage = 0d;
-            kitchen.Color = Color.White;
-
-            var bedroom = new Bedroom(); // Bedroom test double
-            bedroom.SquareFootage = 0d;
-            bedroom.Color = Color.White;
+            var garden = new Gardens.RedGarden(gardener); // Garden test double         
 
             // Only testing one assertion per type, i.e. kitchen.
             var greenHouse = new Houses.GreenHouse(kitchen, bedroom);

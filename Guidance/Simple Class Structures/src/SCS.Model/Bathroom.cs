@@ -1,7 +1,5 @@
-﻿namespace SCS.Infrastructure
+﻿namespace SCS.Model
 {
-    using System.Drawing;
-
     public class Bathroom
     {
         public double SquareFootage { get; set; }

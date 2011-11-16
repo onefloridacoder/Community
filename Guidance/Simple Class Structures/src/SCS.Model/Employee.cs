@@ -1,4 +1,4 @@
-﻿namespace SCS.Infrastructure
+﻿namespace SCS.Model
 {
     using System.Collections.Generic;
 
