@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using SCS.Infrastructure;
 using SCS.Model;
@@ -15,25 +16,45 @@ namespace SCS.Constructors
             {
                 // Before
                 // MEMO This is going to take for-eeever!
-                this.Gardener = new Gardener(new Collection<Boot>());
-                this.Gardener.SetWorkDay();
+                this.Gardener = new Gardener(new Collection<Boot>(), new Collection<Tool>());
+                this.Gardener.SetWorkDay(new TimeSpan(0,3,30,00));
             }
 
-            public RedGarden(Gardener gardener)
+            public RedGarden(Gardener gardener,  ICollection<Tool> tools)
             {
-                // TODO:JAS Complete member initialization
-                this.gardener = gardener;
-                this.gardener.SetEquipment();
+                this.Gardener = gardener;
+                this.Gardener.SetEquipment(tools);
+                this.Gardener.SetWorkDay(new TimeSpan(0, 3, 30, 00));
             }
         }
 
         public class GreenGarden
         {
-            private Gardener gardener;
+            public Gardener Gardener { get; private set; }
+
             public GreenGarden(Gardener gardener)
             {
                 // TODO:JAS Complete member initialization
-                this.gardener = gardener;
+                this.Gardener = gardener;
+            }
+
+            public void DoWork()
+            {
+                if (!(this.Gardener.IsEquipped || this.Gardener.HasWorkTime))
+                {
+                    FireGardeningService();
+                }
+                GetOnWithIt();
+            }
+
+            private void FireGardeningService()
+            {
+                //TODO Finish Implementation
+            }
+
+            private void GetOnWithIt()
+            {
+                //TODO Finish Implementation
             }
         }
     }
