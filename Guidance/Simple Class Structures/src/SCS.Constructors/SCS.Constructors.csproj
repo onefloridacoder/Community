@@ -49,6 +49,10 @@
       <Project>{5CCF2284-A4A2-408D-AC27-4BCE248C4CA9}</Project>
       <Name>SCS.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SCS.Model\SCS.Model.csproj">
+      <Project>{B82F38AD-5324-4403-998B-3A66D9B37761}</Project>
+      <Name>SCS.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
