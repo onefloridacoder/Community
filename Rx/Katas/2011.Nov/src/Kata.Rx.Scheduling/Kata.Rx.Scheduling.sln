@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Rx.Scheduling", "Kata.Rx.Scheduling.csproj", "{68AF7C46-335B-40CF-94C7-B492E354C0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Rx.Scheduling.Tests", "..\..\test\Kata.Rx.Scheduling.Tests\Kata.Rx.Scheduling.Tests.csproj", "{A9E72B4A-FD2F-4E3E-A3BD-B01AB536D8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E20A3075-FA10-493A-9480-C13B81BCD15B}"
+	ProjectSection(SolutionItems) = preProject
+		Kata.Rx.Scheduling.vsmdi = Kata.Rx.Scheduling.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Kata.Rx.Scheduling.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68AF7C46-335B-40CF-94C7-B492E354C0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AF7C46-335B-40CF-94C7-B492E354C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AF7C46-335B-40CF-94C7-B492E354C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AF7C46-335B-40CF-94C7-B492E354C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E72B4A-FD2F-4E3E-A3BD-B01AB536D8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E72B4A-FD2F-4E3E-A3BD-B01AB536D8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E72B4A-FD2F-4E3E-A3BD-B01AB536D8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E72B4A-FD2F-4E3E-A3BD-B01AB536D8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
