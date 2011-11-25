@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80e5c136-d2a1-4cee-8a6a-c327f43f2729}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\controllers\welcome_controller.rb</StartupFile>
+    <CommandLineArguments>server</CommandLineArguments>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <DisableDebugging>true</DisableDebugging>
+    <RubyApplicationType>WebApp</RubyApplicationType>
+    <DefaultPort>3000</DefaultPort>
+    <AssemblyName>SimpleSite.SimpleWebHost</AssemblyName>
+    <Name>SimpleSite.SimpleWebHost</Name>
+    <RootNamespace>SimpleSite.SimpleWebHost</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="app\controllers\application_controller.rb" />
+    <None Include="app\controllers\welcome_controller.rb" />
+    <None Include="app\helpers\application_helper.rb" />
+    <None Include="app\views\layouts\application.html.erb" />
+    <None Include="app\views\welcome\index.html.erb" />
+    <None Include="config.ru" />
+    <None Include="config\application.rb" />
+    <None Include="config\boot.rb" />
+    <None Include="config\database.yml" />
+    <None Include="config\environment.rb" />
+    <None Include="config\environments\development.rb" />
+    <None Include="config\environments\production.rb" />
+    <None Include="config\environments\test.rb" />
+    <None Include="config\initializers\backtrace_silencers.rb" />
+    <None Include="config\initializers\inflections.rb" />
+    <None Include="config\initializers\mime_types.rb" />
+    <None Include="config\initializers\secret_token.rb" />
+    <None Include="config\initializers\session_store.rb" />
+    <None Include="config\locales\en.yml" />
+    <None Include="config\routes.rb" />
+    <None Include="db\seeds.rb" />
+    <None Include="doc\README_FOR_APP" />
+    <None Include="Gemfile" />
+    <None Include="Gemfile.lock" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\controllers" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\helpers" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\mailers" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\models" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\views" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\views\layouts" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\app\views\welcome" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\config" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\config\environments" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\config\initializers" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\config\locales" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\db" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\doc" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\lib" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\lib\tasks" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\log" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\public" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\public\images" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\public\javascripts" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\public\stylesheets" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\script" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test\fixtures" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test\functional" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test\integration" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test\performance" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\test\unit" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\tmp" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\tmp\cache" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\tmp\pids" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\tmp\sessions" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\tmp\sockets" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\vendor" />
+    <None Include="J:\Git\Repos\Community\Ruby\railsdemo\SimpleSite\SimpleSite.SimpleWebHost\vendor\plugins" />
+    <None Include="lib\tasks\.gitkeep" />
+    <None Include="log\development.log" />
+    <None Include="log\production.log" />
+    <None Include="log\server.log" />
+    <None Include="log\test.log" />
+    <None Include="public\404.html" />
+    <None Include="public\422.html" />
+    <None Include="public\500.html" />
+    <None Include="public\favicon.ico" />
+    <None Include="public\images\rails.png" />
+    <None Include="public\index.html" />
+    <None Include="public\javascripts\application.js" />
+    <None Include="public\javascripts\controls.js" />
+    <None Include="public\javascripts\dragdrop.js" />
+    <None Include="public\javascripts\effects.js" />
+    <None Include="public\javascripts\prototype.js" />
+    <None Include="public\javascripts\rails.js" />
+    <None Include="public\robots.txt" />
+    <None Include="public\stylesheets\.gitkeep" />
+    <None Include="Rakefile" />
+    <None Include="README" />
+    <None Include="script\rails" />
+    <None Include="test\performance\browsing_test.rb" />
+    <None Include="test\test_helper.rb" />
+    <None Include="tmp\pids\server.pid" />
+    <None Include="vendor\plugins\.gitkeep" />
+  </ItemGroup>
+</Project>
